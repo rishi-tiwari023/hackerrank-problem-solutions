@@ -84,3 +84,44 @@ This project is open source and available under the [MIT License](LICENSE).
 ⭐ **Star this repository if you find it helpful!** ⭐
 
 *Solutions are updated weekly from college hackathons and competitive programming contests.*
+
+## ➕ Additional Problems Available
+
+### 4. [Queen's Attack II](queens-attack-ii-hackerrank-solution.cpp)
+**Problem**: Count squares a queen can attack on an n×n board with obstacles.
+
+**Key Concepts**:
+- Grid traversal
+- Directional stepping
+- Obstacle handling using set
+
+**Time Complexity**: O(k + 8·d)
+**Space Complexity**: O(k)
+
+### 5. [Jesse and Cookies](jesse-and-cookies-hackerrank-solution.cpp)
+**Problem**: Minimum operations to reach target sweetness using greedy min-heap combination.
+
+**Key Concepts**:
+- Priority queue (min-heap)
+- Greedy combination rule
+
+**Time Complexity**: O(n log n)
+**Space Complexity**: O(n)
+
+### 6. [Waiter](waiter-hackerrank-solution.cpp)
+**Problem**: Simulate plate distribution over q iterations using successive primes as divisors.
+
+**Key Concepts**:
+- Prime generation
+- Stack simulation
+- Iterative filtering
+
+**Time Complexity**: O(n log log M + n·q)
+**Space Complexity**: O(n + q)
+
+### Also in this repository
+```
+├── queens-attack-ii-hackerrank-solution.cpp
+├── jesse-and-cookies-hackerrank-solution.cpp
+└── waiter-hackerrank-solution.cpp
+```
