@@ -125,3 +125,42 @@ This project is open source and available under the [MIT License](LICENSE).
 ├── jesse-and-cookies-hackerrank-solution.cpp
 └── waiter-hackerrank-solution.cpp
 ```
+
+## ➕ More Problems (Appended)
+
+### 7. [Largest Rectangle](largest-rectangle-hackerrank-solution.cpp)
+**Problem**: Find the largest rectangle area in a histogram.
+
+**Key Concepts**:
+- Monotonic stack
+- Boundary expansion (previous/next smaller)
+
+**Time Complexity**: O(n)
+**Space Complexity**: O(n)
+
+### 8. [Bigger is Greater](bigger-is-greater-hackerrank-solution.cpp)
+**Problem**: Given a string, print the next lexicographically greater string or "no answer".
+
+**Key Concepts**:
+- Next permutation
+- Suffix manipulation
+
+**Time Complexity**: O(n)
+**Space Complexity**: O(1)
+
+### 9. [Counter Game](counter-game-hackerrank-solution.cpp)
+**Problem**: Determine the winner by repeatedly halving powers of two or subtracting the largest power of two less than n.
+
+**Key Concepts**:
+- Bit manipulation / powers of two
+- Game parity
+
+**Time Complexity**: O(log n)
+**Space Complexity**: O(1)
+
+### Updated file list
+```
+├── largest-rectangle-hackerrank-solution.cpp
+├── bigger-is-greater-hackerrank-solution.cpp
+└── counter-game-hackerrank-solution.cpp
+```
