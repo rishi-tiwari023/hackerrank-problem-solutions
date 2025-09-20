@@ -164,3 +164,45 @@ This project is open source and available under the [MIT License](LICENSE).
 ├── bigger-is-greater-hackerrank-solution.cpp
 └── counter-game-hackerrank-solution.cpp
 ```
+
+## ➕ Latest Problems (Newly Added)
+
+### 10. [Winning Lottery Ticket](winning-lottery-ticket-hackerrank-solution.cpp)
+**Problem**: Count pairs of lottery tickets that together contain all digits 0-9.
+
+**Key Concepts**:
+- Brute force enumeration
+- Digit frequency checking
+- Pair counting
+
+**Time Complexity**: O(n²)
+**Space Complexity**: O(1)
+
+### 11. [Candies](candies-hackerrank-solution.cpp)
+**Problem**: Distribute minimum candies to children based on rating constraints.
+
+**Key Concepts**:
+- Two-pass algorithm
+- Greedy distribution
+- Constraint satisfaction
+
+**Time Complexity**: O(n)
+**Space Complexity**: O(n)
+
+### 12. [Lily's Homework](lilys-homework-hackerrank-solution.cpp)
+**Problem**: Find minimum swaps to sort array in ascending or descending order.
+
+**Key Concepts**:
+- Minimum swap counting
+- Array sorting
+- Position mapping
+
+**Time Complexity**: O(n log n)
+**Space Complexity**: O(n)
+
+### Latest file additions
+```
+├── winning-lottery-ticket-hackerrank-solution.cpp
+├── candies-hackerrank-solution.cpp
+└── lilys-homework-hackerrank-solution.cpp
+```
