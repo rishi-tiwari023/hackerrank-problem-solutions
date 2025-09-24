@@ -206,3 +206,42 @@ This project is open source and available under the [MIT License](LICENSE).
 ├── candies-hackerrank-solution.cpp
 └── lilys-homework-hackerrank-solution.cpp
 ```
+
+## ➕ Newly Split
+
+### 13. [Find the Running Median](running-median-hackerrank-solution.cpp)
+**Problem**: Maintain the median of a stream of integers after each insertion.
+
+**Key Concepts**:
+- Two Heaps (max-heap for lower half, min-heap for upper half)
+- Online processing
+
+**Time Complexity**: O(log n) per insertion
+**Space Complexity**: O(n)
+
+### 14. [Chief Hopper](chief-hopper-hackerrank-solution.cpp)
+**Problem**: Find the minimum initial energy to traverse buildings without energy becoming negative.
+
+**Key Concepts**:
+- Binary search on answer
+- Simulation of energy transitions
+
+**Time Complexity**: O(n log V)
+**Space Complexity**: O(n)
+
+### 15. [Truck Tour](truck-tour-hackerrank-solution.cpp)
+**Problem**: Determine the starting petrol pump index to complete the circular tour.
+
+**Key Concepts**:
+- Greedy single pass
+- Prefix sum feasibility
+
+**Time Complexity**: O(n)
+**Space Complexity**: O(1)
+
+### Newly added files
+```
+├── running-median-hackerrank-solution.cpp
+├── chief-hopper-hackerrank-solution.cpp
+└── truck-tour-hackerrank-solution.cpp
+```
