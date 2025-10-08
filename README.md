@@ -245,3 +245,40 @@ This project is open source and available under the [MIT License](LICENSE).
 ├── chief-hopper-hackerrank-solution.cpp
 └── truck-tour-hackerrank-solution.cpp
 ```
+
+### 16. [Tree: Top View](tree-top-view-hackerrank-solution.cpp)
+**Problem**: Print the top view of a binary tree from leftmost to rightmost.
+
+**Key Concepts**:
+- BFS with horizontal distances
+- Map to store first node at each distance
+
+**Time Complexity**: O(n)
+**Space Complexity**: O(n)
+
+### 17. [Append and Delete](append-and-delete-hackerrank-solution.cpp)
+**Problem**: Determine if string s can be converted to t in exactly k operations.
+
+**Key Concepts**:
+- Longest common prefix
+- Operation counting logic
+
+**Time Complexity**: O(n)
+**Space Complexity**: O(1)
+
+### 18. [Gridland Metro] (gridland-metro-from-1-hackerrank-solution.cpp)
+**Problem**: Compute free cells after placing tracks; version derived from 1.txt.
+
+**Key Concepts**:
+- Per-row interval merging
+- Map of row to segments
+
+**Time Complexity**: O(k log k)
+**Space Complexity**: O(k)
+
+### Newly added files
+```
+├── tree-top-view-hackerrank-solution.cpp
+├── append-and-delete-hackerrank-solution.cpp
+└── gridland-metro-from-1-hackerrank-solution.cpp
+```
