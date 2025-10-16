@@ -282,3 +282,33 @@ This project is open source and available under the [MIT License](LICENSE).
 ├── append-and-delete-hackerrank-solution.cpp
 └── gridland-metro-from-1-hackerrank-solution.cpp
 ```
+
+### 19. [The Full Counting Sort](full-counting-sort-hackerrank-solution.cpp)
+**Problem**: Stable sort string entries by integer keys 0..99 and print values, masking the first half of inputs with '-'.
+
+**Key Concepts**:
+- Stable bucketing by key
+- Partial output masking for first half
+
+**Time Complexity**: O(n + K)
+**Space Complexity**: O(n + K)
+
+### 20. [Reverse a Linked List](reverse-a-linked-list-hackerrank-solution.cpp)
+**Problem**: Reverse a singly linked list and output node values from head to tail.
+
+**Key Concepts**:
+- Iterative reversal using head insertion
+- Singly linked list manipulation
+
+**Time Complexity**: O(n)
+**Space Complexity**: O(n) (rebuilding nodes as in canonical HR stub)
+
+### 21. [Gemstones](gemstones-hackerrank-solution.cpp)
+**Problem**: Count the number of characters that appear in every rock string.
+
+**Key Concepts**:
+- Character frequency per string
+- Intersection across all strings
+
+**Time Complexity**: O(26 · n · L)
+**Space Complexity**: O(26 · n)
