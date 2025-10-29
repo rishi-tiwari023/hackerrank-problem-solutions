@@ -312,3 +312,40 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **Time Complexity**: O(26 · n · L)
 **Space Complexity**: O(26 · n)
+
+### 22. [The Grid Search](grid-search-hackerrank-solution.cpp)
+**Problem**: Determine if pattern matrix P exists as a contiguous submatrix in G.
+
+**Key Concepts**:
+- 2D pattern matching with bounds checks
+- Early pruning on first-character match
+
+**Time Complexity**: O(R · C · r · c) worst case
+**Space Complexity**: O(R + r) for input storage
+
+### 23. [Largest Permutation](largest-permutation-hackerrank-solution.cpp)
+**Problem**: Maximize array value by performing at most K swaps.
+
+**Key Concepts**:
+- Greedy placement of N, N-1, ... at positions 0.. using index map
+- Hash map to track positions for O(1) lookups
+
+**Time Complexity**: O(n)
+**Space Complexity**: O(n)
+
+### 24. [Sherlock and the Valid String](sherlock-and-the-valid-string-hackerrank-solution.cpp)
+**Problem**: Check if a string is valid where all chars occur same number, or can be by removing one char.
+
+**Key Concepts**:
+- Frequency counting and normalization
+- Tolerate at most one deviation
+
+**Time Complexity**: O(26 log 26)
+**Space Complexity**: O(26)
+
+### Newly added files
+```
+├── grid-search-hackerrank-solution.cpp
+├── largest-permutation-hackerrank-solution.cpp
+└── sherlock-and-the-valid-string-hackerrank-solution.cpp
+```
