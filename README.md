@@ -349,3 +349,44 @@ This project is open source and available under the [MIT License](LICENSE).
 ├── largest-permutation-hackerrank-solution.cpp
 └── sherlock-and-the-valid-string-hackerrank-solution.cpp
 ```
+
+### 25. [Ema's Supercomputer](emas-supercomputer-hackerrank-solution.cpp)
+**Problem**: Find maximum product of areas of two non-overlapping plus signs in a grid.
+
+**Key Concepts**:
+- Plus sign detection with 4-directional expansion
+- Area calculation for each plus center
+- Non-overlapping constraint checking
+- Maximum product optimization
+
+**Time Complexity**: O(r²c²)
+**Space Complexity**: O(rc)
+
+### 26. [Queen's Attack II](queens-attack-ii-hackerrank-solution.cpp)
+**Problem**: Count squares a queen can attack on an n×n board with obstacles using 8-directional DFS.
+
+**Key Concepts**:
+- 8-directional DFS traversal
+- Obstacle handling using set
+- Recursive exploration in each direction
+
+**Time Complexity**: O(k + 8·d) where d is depth
+**Space Complexity**: O(k) for obstacles
+
+### 27. [Luck Balance](luck-balance-hackerrank-solution.cpp)
+**Problem**: Maximize luck balance by losing at most K important contests, losing all unimportant contests.
+
+**Key Concepts**:
+- Greedy selection of important contests
+- Sort important contests by luck value
+- Lose K contests with highest luck
+
+**Time Complexity**: O(n log n)
+**Space Complexity**: O(n)
+
+### Newly added files
+```
+├── emas-supercomputer-hackerrank-solution.cpp
+├── queens-attack-ii-hackerrank-solution.cpp
+└── luck-balance-hackerrank-solution.cpp
+```
