@@ -390,3 +390,43 @@ This project is open source and available under the [MIT License](LICENSE).
 ├── queens-attack-ii-hackerrank-solution.cpp
 └── luck-balance-hackerrank-solution.cpp
 ```
+
+## ➕ Hackathon 12 November Upload
+
+### 28. [Largest Rectangle Histogram Stack Solution](largest-rectangle-histogram-stack-hackerrank-solution.cpp)
+**Problem**: Compute the largest rectangle area in a histogram using a monotonic stack with sentinel bars for simpler boundary handling.
+
+**Key Concepts**:
+- Stack of indices with sentinel padding
+- Previous/next smaller expansion
+
+**Time Complexity**: O(n)
+**Space Complexity**: O(n)
+
+### 29. [Ants Problem HackerRank Solution](ants-problem-hackerrank-solution.cpp)
+**Problem**: Pair neighbouring ants placed on a circular track and evaluate a custom score combining base congestion and tight pair counts.
+
+**Key Concepts**:
+- Sorting positions
+- Greedy adjacent pairing
+- Circular difference check
+
+**Time Complexity**: O(n log n)
+**Space Complexity**: O(1) beyond the input array
+
+### 30. [Waiter Prime Stack Simulation](waiter-prime-stack-hackerrank-solution.cpp)
+**Problem**: Simulate the Waiter plate redistribution using successive primes to separate divisible plates over q iterations.
+
+**Key Concepts**:
+- Prime sieving via trial division
+- Stack simulation for plate moves
+
+**Time Complexity**: O(n · q)
+**Space Complexity**: O(n + q)
+
+### Newly added files
+```
+├── largest-rectangle-histogram-stack-hackerrank-solution.cpp
+├── ants-problem-hackerrank-solution.cpp
+└── waiter-prime-stack-hackerrank-solution.cpp
+```
