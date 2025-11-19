@@ -430,3 +430,42 @@ This project is open source and available under the [MIT License](LICENSE).
 ├── ants-problem-hackerrank-solution.cpp
 └── waiter-prime-stack-hackerrank-solution.cpp
 ```
+
+## ➕ Current Hackathon Upload : 19 November 2025
+
+### 31. [BST Lowest Common Ancestor Solution](binary-search-tree-lowest-common-ancestor-hackerrank-solution.cpp)
+**Problem**: Return the lowest common ancestor for two values in a binary search tree by walking downwards using BST ordering.
+
+**Key Concepts**:
+- Binary search tree ordering
+- Recursive descent towards split node
+
+**Time Complexity**: O(h)
+**Space Complexity**: O(h) recursive stack
+
+### 32. [Running Median Two-Heap Solution](running-median-two-heap-hackerrank-solution.cpp)
+**Problem**: Maintain the running median of a stream using a max-heap for the lower half and min-heap for the upper half.
+
+**Key Concepts**:
+- Dual heap balancing
+- Median extraction per insertion
+
+**Time Complexity**: O(log n) per insertion
+**Space Complexity**: O(n)
+
+### 33. [Ice Cream Parlor Brute Force Solution](ice-cream-parlor-bruteforce-hackerrank-solution.cpp)
+**Problem**: Find two ice cream flavors meeting the budget using a straightforward double loop that returns the first valid pair.
+
+**Key Concepts**:
+- Pair enumeration
+- Early exit on success
+
+**Time Complexity**: O(n²)
+**Space Complexity**: O(1) extra
+
+### Newly added files
+```
+├── binary-search-tree-lowest-common-ancestor-hackerrank-solution.cpp
+├── running-median-two-heap-hackerrank-solution.cpp
+└── ice-cream-parlor-bruteforce-hackerrank-solution.cpp
+```
