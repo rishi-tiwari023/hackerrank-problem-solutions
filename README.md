@@ -469,3 +469,45 @@ This project is open source and available under the [MIT License](LICENSE).
 ├── running-median-two-heap-hackerrank-solution.cpp
 └── ice-cream-parlor-bruteforce-hackerrank-solution.cpp
 ```
+
+## ➕ Hackathon Upload : h-elite3-nov26
+
+### 34. [Manasa and Stones](manasa-and-stones-hackerrank-solution.cpp)
+**Problem**: Find all possible values of the last stone when starting with 0 and adding either 'a' or 'b' for each step.
+
+**Key Concepts**:
+- Combinatorial generation
+- Set of possible sums
+- Sorting and deduplication
+
+**Time Complexity**: O(n log n)
+**Space Complexity**: O(n)
+
+### 35. [Special Multiple](special-multiple-hackerrank-solution.cpp)
+**Problem**: Find the smallest number containing only digits 0 and 9 that is divisible by a given number n.
+
+**Key Concepts**:
+- Recursive generation of binary-like numbers (0s and 9s)
+- Precomputation for multiple queries
+- Map-based lookup
+
+**Time Complexity**: O(V log V) for precomputation, O(1) per query
+**Space Complexity**: O(V) where V is the number of generated values
+
+### 36. [Common Child](common-child-hackerrank-solution.cpp)
+**Problem**: Find the length of the longest common subsequence (LCS) between two strings.
+
+**Key Concepts**:
+- Dynamic programming
+- Longest common subsequence algorithm
+- 2D DP table
+
+**Time Complexity**: O(m · n)
+**Space Complexity**: O(m · n)
+
+### Newly added files (h-elite3-nov26)
+```
+├── manasa-and-stones-hackerrank-solution.cpp
+├── special-multiple-hackerrank-solution.cpp
+└── common-child-hackerrank-solution.cpp
+```
