@@ -511,3 +511,45 @@ This project is open source and available under the [MIT License](LICENSE).
 ├── special-multiple-hackerrank-solution.cpp
 └── common-child-hackerrank-solution.cpp
 ```
+
+## ➕ Hackathon Upload : h-cs-3b-03dec25
+
+### 37. [Cut the Trees](cut-the-trees-hackerrank-solution.cpp)
+**Problem**: Find the minimum difference when cutting a tree edge to split it into two subtrees with balanced weights.
+
+**Key Concepts**:
+- Tree traversal (DFS)
+- Subtree weight calculation
+- Minimum difference computation
+
+**Time Complexity**: O(n)
+**Space Complexity**: O(n)
+
+### 38. [Almost Sorted](almost-sorted-hackerrank-solution.cpp)
+**Problem**: Determine if an array can be sorted by either swapping two elements or reversing a subarray.
+
+**Key Concepts**:
+- Array comparison with sorted version
+- Swap detection (2 mismatches)
+- Reverse subarray validation
+
+**Time Complexity**: O(n log n)
+**Space Complexity**: O(n)
+
+### 39. [Bigger is Greater](bigger-is-greater-from-2-hackerrank-solution.cpp)
+**Problem**: Find the next lexicographically greater string permutation or return "no answer".
+
+**Key Concepts**:
+- Next permutation algorithm
+- Pivot finding from right
+- Suffix sorting
+
+**Time Complexity**: O(n)
+**Space Complexity**: O(n)
+
+### Newly added files (h-cs-3b-03dec25)
+```
+├── cut-the-trees-hackerrank-solution.cpp
+├── almost-sorted-hackerrank-solution.cpp
+└── bigger-is-greater-from-2-hackerrank-solution.cpp
+```
