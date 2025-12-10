@@ -553,3 +553,44 @@ This project is open source and available under the [MIT License](LICENSE).
 ├── almost-sorted-hackerrank-solution.cpp
 └── bigger-is-greater-from-2-hackerrank-solution.cpp
 ```
+
+## ➕ Hackathon Upload : h-cs-3b-10dec25
+
+### 40. [Crossword Puzzle](crossword-puzzle-hackerrank-solution.cpp)
+**Problem**: Fill a 10×10 crossword grid with given words so all gaps are satisfied.
+
+**Key Concepts**:
+- Gap detection across rows and columns
+- Backtracking with recursive placement
+- Constraint validation on overlaps
+
+**Time Complexity**: Exponential backtracking in worst case  
+**Space Complexity**: O(boards + words) for recursion copies
+
+### 41. [Roads and Libraries](roads-and-libraries-hackerrank-solution.cpp)
+**Problem**: Minimize cost to ensure library access by building libraries and roads between cities.
+
+**Key Concepts**:
+- Graph connected components via DFS
+- Cost comparison of road vs library
+- Greedy per-component build choice
+
+**Time Complexity**: O(n + m)  
+**Space Complexity**: O(n + m)
+
+### 42. [The Great XOR](the-great-xor-hackerrank-solution.cpp)
+**Problem**: Count numbers y where 0 < y < x and (x XOR y) > x.
+
+**Key Concepts**:
+- Bitwise analysis of set/unset bits
+- Counting candidates per bit position
+
+**Time Complexity**: O(log x)  
+**Space Complexity**: O(1)
+
+### Newly added files (h-cs-3b-10dec25)
+```
+├── crossword-puzzle-hackerrank-solution.cpp
+├── roads-and-libraries-hackerrank-solution.cpp
+└── the-great-xor-hackerrank-solution.cpp
+```
