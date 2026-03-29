@@ -564,7 +564,7 @@ This project is open source and available under the [MIT License](LICENSE).
 - Backtracking with recursive placement
 - Constraint validation on overlaps
 
-**Time Complexity**: Exponential backtracking in worst case  
+**Time Complexity**: Exponential backtracking in worst case
 **Space Complexity**: O(boards + words) for recursion copies
 
 ### 41. [Roads and Libraries](roads-and-libraries-hackerrank-solution.cpp)
@@ -575,7 +575,7 @@ This project is open source and available under the [MIT License](LICENSE).
 - Cost comparison of road vs library
 - Greedy per-component build choice
 
-**Time Complexity**: O(n + m)  
+**Time Complexity**: O(n + m)
 **Space Complexity**: O(n + m)
 
 ### 42. [The Great XOR](the-great-xor-hackerrank-solution.cpp)
@@ -585,7 +585,7 @@ This project is open source and available under the [MIT License](LICENSE).
 - Bitwise analysis of set/unset bits
 - Counting candidates per bit position
 
-**Time Complexity**: O(log x)  
+**Time Complexity**: O(log x)
 **Space Complexity**: O(1)
 
 ### Newly added files (h-cs-3b-10dec25)
@@ -593,4 +593,43 @@ This project is open source and available under the [MIT License](LICENSE).
 ├── crossword-puzzle-hackerrank-solution.cpp
 ├── roads-and-libraries-hackerrank-solution.cpp
 └── the-great-xor-hackerrank-solution.cpp
+```
+
+## ➕ Hackathon Upload : h-3yr-jan27
+
+### 43. [Poisonous Plants](poisonous-plants-hackerrank-solution.cpp)
+**Problem**: Find the number of days after which no more plants die (a plant dies if it has more pesticide than the one to its left).
+
+**Key Concepts**:
+- Monotonic stack
+- Day-based stack processing
+
+**Time Complexity**: O(n)
+**Space Complexity**: O(n)
+
+### 44. [Permuting Two Arrays](permuting-two-arrays-hackerrank-solution.cpp)
+**Problem**: Determine if there exists a permutation of two arrays such that A[i] + B[i] >= K for all i.
+
+**Key Concepts**:
+- Greedy strategy
+- Complementary sorting (Ascending and Descending)
+
+**Time Complexity**: O(n log n)
+**Space Complexity**: O(n)
+
+### 45. [Is This a Binary Search Tree?](is-this-a-binary-search-tree-hackerrank-solution.cpp)
+**Problem**: Verify if a given binary tree is a valid binary search tree by ensuring all node values fall within strict parent-defined ranges.
+
+**Key Concepts**:
+- Tree traversal (Recursive DFS)
+- BST property validation with range constraints
+
+**Time Complexity**: O(n)
+**Space Complexity**: O(h) where h is height
+
+### Newly added files (h-3yr-jan27)
+```
+├── poisonous-plants-hackerrank-solution.cpp
+├── permuting-two-arrays-hackerrank-solution.cpp
+└── is-this-a-binary-search-tree-hackerrank-solution.cpp
 ```
