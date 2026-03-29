@@ -414,7 +414,7 @@ This project is open source and available under the [MIT License](LICENSE).
 **Time Complexity**: O(n log n)
 **Space Complexity**: O(1) beyond the input array
 
-### 30. [Waiter Prime Stack Simulation](waiter-prime-stack-hackerrank-solution.cpp)
+### 30. [Waiter Prime Stack Simulation](waiter-prime-stack-hackerrank-simulation.cpp)
 **Problem**: Simulate the Waiter plate redistribution using successive primes to separate divisible plates over q iterations.
 
 **Key Concepts**:
@@ -632,4 +632,43 @@ This project is open source and available under the [MIT License](LICENSE).
 ├── poisonous-plants-hackerrank-solution.cpp
 ├── permuting-two-arrays-hackerrank-solution.cpp
 └── is-this-a-binary-search-tree-hackerrank-solution.cpp
+```
+
+## ➕ Hackathon Upload : h-elite3-march24
+
+### 46. [Stone Division, Revisited](stone-division-revisited-hackerrank-solution.cpp)
+**Problem**: Count the maximum possible number of stones after repeated division by given set elements.
+
+**Key Concepts**:
+- Memoization
+- Dynamic Programming
+
+**Time Complexity**: O(n * |queries|)
+**Space Complexity**: O(n)
+
+### 47. [Flipping the Matrix](flipping-the-matrix-hackerrank-solution.cpp)
+**Problem**: Maximize the sum of the elements in the top-left n×n quadrant of a 2n×2n matrix by reversing rows and columns.
+
+**Key Concepts**:
+- Matrix observation
+- Greedy optimization
+
+**Time Complexity**: O(n²)
+**Space Complexity**: O(n²)
+
+### 48. [Find the Median](find-the-median-hackerrank-solution.cpp)
+**Problem**: Find the median of an odd-length array of integers.
+
+**Key Concepts**:
+- Sorting
+- Array manipulation
+
+**Time Complexity**: O(n log n)
+**Space Complexity**: O(n)
+
+### Newly added files (h-elite3-march24)
+```
+├── stone-division-revisited-hackerrank-solution.cpp
+├── flipping-the-matrix-hackerrank-solution.cpp
+└── find-the-median-hackerrank-solution.cpp
 ```
